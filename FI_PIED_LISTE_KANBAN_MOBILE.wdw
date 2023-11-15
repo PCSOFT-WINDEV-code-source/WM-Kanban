@@ -1,0 +1,187 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_PIED_LISTE_KANBAN_MOBILE
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_PIED_LISTE_KANBAN_MOBILE
+ identifier : 0x2374f3d90e7ccf91
+ internal_properties : CAAAAAgAAABb2TqL/6muX8yUDnDaZsZUMXdFLn66U6N/X018LswSLihYyvCWCOlSJXbcR4UbiKx526udU0BBGvFUFpxK2O/wssbsDFT3wNG7hEu62NOlnyTtakf4mU9+fNYeuXJiwXQQOyc/dnLNjRaznRPjkrwiAQ7vxwBHMvywNNnrhuSoG2/knch1iPByYNFNmI1rA5V91kBnzP/XS7ZT+W8m42flYI00kzuYV3PZGp+GBxV/tNKCOWeFahoaEpTRXFudiV7MzC7jY3jU+SGs8lW8C9awSQvdvUduyPhlLvB4iPZI1C6hUmP+ob1x3t+mPHVTJHb3EKa4CLP5+3njfqBp/J9hfjorZZAkgg25u1NEWp1dHUhZbQoBg66IEK4BHm/lsLMNjwDnbHdm7tfdc1E05abv/AqSZB6KQ+0fU9Q1m9ImcXqqS2MHhPDUS11lWHbYic0XF7el2E2XoDXi3QXqfcwLv1bXcGMx7MGpr9WfssvftEg6qRn5RdNGhbpPQXSMBWerPDIuJvnTRgBHYZSRVgdwui1gHElay2wHiIpj6frMhcdYKAUGSadhNvAc3wFuNzLEYGP+YGNpn4ZFHpTJ3DDumWQEPhHGYARbPbypKOj1SCrdtZqOFeqMOCFUsSJdcLOHSu27SEkEQhmv0wjvsQN3ki8QesIDDVU9ZJT2W52ga3a9UuU9qTNWZK5CV3vCvyNqmIitWtcBBey5eQ1oPE64RsLc4oVJPU0o8b6wj+u9gxhQf5GysmFb9mBZwnu8RvU5ggRr+bXPhdNaxPadWfHFAinbVLCoMlLdEkx++57ZFt/pm4IEiM/L1NYJStnMA2Vl2u4PWygkmSkh7I3EK9oWXRYSY63gke78mN0PpqoyIMoTseqyi85Tt/DN/BbXvBVP0vwxUYg5kcA4/u1sUcw9MA7QBj37hDyTU94dnHduRH5/j4Hkg698HKO9+EJcCrCvdLg=
+ properties :
+  width : 260
+  height : 44
+ controls :
+  -
+    name : FI_PIED_LISTE_KANBAN_MOBILE
+    identifier : 0x2374f3d90e7dcf91
+    internal_properties : CAAAAAgAAADA56YT9g7XsRI68sfXiK/FljIoEp7oGzBrTQbyLfwokNm+tI0xHjG+yetGEx/QZCy1C00EJgprnaMuxUoxfi+2ghhVqtNfYQN6cSyJR6jiDBEMYPl39oF6M6RCojnYOtfXaeCnjGye9tfr69kWuo/QCNHtACNL+MAmncoGtVms0p+lY/Xqibs1l/hZSBy+nxk6oApqZOIFjjecZvmN2nwhIGPxqkb5X0NzB9wqAcTnU05vYgHiMXFnNKMN/zqZln3tkFjRGVuGm8lf0wxv513Kh+OLmu6BADT36+jUrpsDwgWYZtGgbt0tQAWtSxf2DQPAR6vNGMc9wO5saPGoD+gOZM56+H4XtexuILgLrw9qrJtXUMkFm75ZNGw/3UALzx3Lb3YIIFTUnoPzriezVdWobSkIY0sjek255PR2enOr4D880h+d6bTlW/yyLpbhkc/2BRrNBu1Wn+JTPs8wMcVgsiTLuA==
+    properties :
+     width : 260
+     height : 44
+    controls :
+     -
+       name : LIB_SUPPRESSION_CARTE
+       identifier : 0x2374f3d90e7ecf91
+       internal_properties : CAAAAAgAAABt+F/B7K9MGzydcw9GdJDo6sqNSSkX/97Ubwbrn0UEuuUzCGaHdPSjxdCkcnB0P9FnBwbAYu/2V31Ykz3/0nyUkys9nJol3fElDrqT+FUp+jhPkpsxN9+B6uIXjUnbKNRxu07qg5e1o+uJENEcWjKVn/10B64a7q3YQys9ne+QISRUK+zX46E11v3VrQFGVMk/SaUuvReubl9ra49V6/5/ZCXnx6uKs55v8Llts0fmIa4EVZ1qa4YjMB6UYaaTbvoQnI+gvIHQ2pAaC1z0tnMAwIf4oG4dLjv3jrlJn8ZHWgsykQZtsmK0NtXah87CQ49XbUDrmCwrhqlAVfoxvkzDLuWPpKpqJl/LZ5bRFXipK+gMdjgwZuSL1NDViumypgwZQ+Cae97B9D9VNu265vvtugi/G/CYy3WMpoyuGO0wH62lk/pafzk8e7CCHcKHaKKPzuj4SA==
+       properties :
+        y : 4
+        width : 260
+        height : 36
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_SUPPRESSION_CARTE
+       identifier : 0x2374f3d90e7fcf91
+       internal_properties : CAAAAAgAAADfBOaOr/Hh0KBesafPV7pwx+7KqH21ND/lEp55VrRaD/okviDKPWB9WUzTrPsEzMz7Ypa1WLTR+xEi3eQLWpyYG8s2nKT52MJrEt7dV5QxW9pgDobyfRHFky1y/BEJ9Uc+JAVntU3Zt92mFirfaNC4N2SpywQPcyun99c19tAWVMugLKALlX4F4Wd19IAxqeRzQ3CU7oOB6/BnxS4b1LrE6nbIs3Vbe8pAitCYeGYFrJCLu2rXilB4BgbePqFldNYwK4blwjcBqs+6gV+0V3NTlH3CHAkZMkeGLPAX5m6llMM8rjodU5zRoTeisPEg/tloMLvpZY8nst2/k/tBAs8dqUpwqEGt6oyncLOFBXtdBb006yBt3wG3fqbJQ8OfiJJ25CwMpiYeJNWftRxLNWkjVQhB36XDEGgrZ8aX7tJ1NvCO42XrDdv+Lrg+JUnPFxm0mIPrnUb3DS0qG/limvmsh3S4lAVRWI513cNdOmiBsE3tlxqWFNr5kDvgLmdrTmvxV7GSi7ZORqd3Ni6lL6SsMx7Q6p1foGeUDK3m6/CkTHp2tjBiTISC7EXgzGH5ofcHFLthPqTRUTkQBw+SkPg4OiJlmhPKLO4hrVqACjj2W0v4MtdB+bcDgN0fSSRgOohcwdJBYbpZus+1V3emsM1Fk46AS1Rc0H8ucOhdl9fEX1RC4LIgttrYwuyM43S/mgbGCMivJNyAZS70AXlut8FUlJR4Nz2OynouAm/u+HF5qtVaxDbmb3FRV7YCE7qU4yKcJFYkKccxwIPBycgAkwg7ag06+b+XpW7vqaj38OF3EWvCXQ9aEQoH1prZOFtMESu4ayUJocHcXrEqQEpoaRSNskY=
+       properties :
+        x : 112
+        y : 4
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_AJOUTER_CARTE
+       identifier : 0x2374f3d90e80cf91
+       internal_properties : CAAAAAgAAAAsA/bK+pk4C5qCsWvy0ZZrLzoNjqyCXTEPhxtATzFMPywsDnnMsVLUkD4e29txbnNBk8kx5H9vVUfOsCzptCHLl/AbeRl3sKjhk2ivlEUQXt4n2g3j4fJr5xiirWBC+PWhYo3DQ2RhePGz6ucofeWT+1KKF2+iOzVvfpEYyx4pDRN//6wv3a8/nhrLEl9Ex44dq/Grw3tPp4eb85WSJfwRatzYJ/GCInKga5vCOWYE545Sy8YitXhbeBbI66ygNg03t6yjWtCcis5lfiQCLq3TWAtmd12ktVO8nk9gR1DJH9Aw9UtnDPr+uKgWs4PAt0IZMkYzk0mjiBKHKQBI9+Dugyn4Jyyfpf7vHv+Mv1gDXOP51LL1Ixj2IMGpO8jWX6n0U5HYA338llIMW4ymTgTZ5GeK1ySNloSrL0M0PK2urUfYcCwnKxWd4qyfdsH56c0scyxelOvqW4AZrtMdlAjUfqD3J7dt5vccjovDEFB+I1osOGtgIE/ib24fqQ2y77Uw2kXEAZfunHp/SreCVNBjR5mLW8pwTdTnv1saumGuu5hNjkem8H9M6BfXa6uC8rpvUOL+4SjpZHyncqK7rVfRW4XVlkdfZ14za2STnZfXvXfwrNKyTZqXNK3pB4QVqbVywwW00CYPt0xQwHL51QU+SvhzZr5MzCMDFeV1HWe5sf8dNdKP3Nsp3nn+am4nuZF1eiCtFFq3jB9dtuSilGW79sHpyDVgmwlsfenT7EWwN9Pef/QNZwtW2ckVH6xM5iQ3Eu+9Qw1H1jAAqm4wfvE0vsEN3xNmqZKOAYvEyJ9ckKqVjx7gGDbgv9GUYRMf1nPyzLIH6mJ2MawYi4VLtWecmlpVTzsztZcGztn31QagoBv2YW4F9mEqZTYZ61kvMtU2+RvVPKX4xu1Xs6Ii6oYDSoEvWM+Kh4BHdsLO3Bs3KYvptiPvR0jtlUBlA/Rc4M9zRu3JbxnEI5Bu4U6BEAci7NYUhGzFSeDjGybHtQ1CfwWn+q8vHzI/6311Kyyg/QgQKEa1fV22F4/OwYxeDyHgA84vK0Vt2cWlmXIAFkgjIA==
+       properties :
+        x : 112
+        y : 4
+        width : 36
+        height : 36
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            Carte est une kbcarte
+            
+            // Si on a validé la saisie
+            FEN_KBCARTE_MOBILE.OuvreFenêtreMobile( ListeCarte, Carte, vrai )
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre( ChampKanban est un Champ, ListeCarte est un champ )
+         
+         FI_PIED_LISTE_KANBAN_MOBILE..Plan = PLAN_AJOUT_CARTE
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x2343eb3a81c90dbb
+  internal_properties : CAAAAAgAAADR9Hyp8Fb+gFL6CD076RStPqwQZEu6YwPdp7tpJZP0unP2RXbBrmJalTKl7k/1svJ6hy9e70MGXHrAV8LNxj+2h7uVmudKH3Fi4P7wOzb5naDSh4sIEdvdg0wyluf6b1TQSIOk/SpeLE9gdcqrvc2vYTzFYdWx7EfZkS9tuitYBVg70JH2amkZ5keHWxzQ6df8wPo/yOcmAXrPv7KyU0CwBg6OEWD7wPRLRPD+wRfyNZP7MLP8D3P5I0LSypoP6gaDu1g/vau2OkfYEUlRLS1c4wZKfTRdug==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : DragCarte_Debut
+     procedure_id : 1402013497362599825
+     type_code : 14
+     code : |1+
+      procédure DragCarte_Debut()
+      
+      FI_PIED_LISTE_KANBAN_MOBILE..Plan = PLAN_SUPPRESSION_CARTE
+      
+     type : 458752
+   -
+     name : DragCarte_Fin
+     procedure_id : 1402013497362665361
+     type_code : 14
+     code : |1-
+      procédure DragCarte_Fin()
+      
+      FI_PIED_LISTE_KANBAN_MOBILE..Plan = PLAN_AJOUT_CARTE
+      LIB_SUPPRESSION_CARTE..Couleur = RougeFoncé
+      IMG_SUPPRESSION_CARTE..Visible = faux
+     type : 458752
+   -
+     name : DragCarte_EntreeSurvol
+     procedure_id : 1402013497362730897
+     type_code : 14
+     code : |1-
+      procédure DragCarte_EntreeSurvol()
+      
+      LIB_SUPPRESSION_CARTE..Couleur = LIB_SUPPRESSION_CARTE..Couleurfond
+      IMG_SUPPRESSION_CARTE..Visible = Vrai
+     type : 458752
+   -
+     name : DragCarte_Drop
+     procedure_id : 1402013497362796433
+     type_code : 14
+     code : |1+
+      procédure DragCarte_Drop(Carte ) //est un kbCarte)
+      
+      // exécution du traitement d'ajout et annulation s'il renvoie FAUX
+      SI ExécuteTraitement( ChampKanban, trtSuppressionCarteKanban, Carte ) = Faux ALORS
+      	// on annule
+      	RETOUR
+      FIN
+      
+      // Suppression de la carte
+      nIndice est entier =  Carte.Indice
+      ListeCarte.SupprimeCarte(nIndice) 
+      carteCopie est un kbCarte = Carte	
+      // On affiche un toast pour permettre d'annuler la suppression de la carte
+      toast est un Toast
+      
+      <SI CibleExécution = Android OU CibleExécution = iOS>		
+      	toast..Texte = <§R13502efd0a226952¤fr-FR¤La carte a été supprimée.§>
+      <sinon>	
+      	toast..Titre = Carte..Titre
+      	toast..Texte = <§R13501804036acbb1¤fr-FR¤a été supprimé§>
+      	toast..Superposable= faux
+      	toast..FermeAuClic = vrai
+      <FIN>
+      
+      toast..DuréeAffichage = 5s
+      toast..Bouton[1]..Libellé = <§R134ed795566f1863¤fr-FR¤Annuler§>
+      toast..Bouton[1]..ActionClic = () => { ListeCarte.InsèreCarte( nIndice, carteCopie ) }
+      toast.Affiche()
+     type : 458752
+   -
+     name : DragCarte_SortieSurvol
+     procedure_id : 1402013497362861969
+     type_code : 14
+     code : |1-
+      procédure DragCarte_SortieSurvol()
+      
+      LIB_SUPPRESSION_CARTE..Couleur = RougeFoncé
+      IMG_SUPPRESSION_CARTE..Visible = Faux
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x1374a53100438cef
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

@@ -1,0 +1,80 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_EXTENSION
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1376366c0011df20
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : kbCarteVersJSON
+     procedure_id : 1402368235882551877
+     type_code : 15
+     code : |1-
+      // Résumé : Convertit un kbCarte en JSON
+      // Syntaxe :
+      //[ <Résultat> = ] kbCarteVersJSON (<stCarte> est kbCarte)
+      //
+      // Paramètres :
+      //	stCarte (kbCarte) : Carte
+      // Valeur de retour :
+      // 	JSON : Objet JSON représentant le kbCarte
+      //
+      procédure kbCarteVersJSON( stCarte est un kbCarte ) : json
+      
+      	jsCarte est un json
+      	jsCarte.date 		= stCarte.Date
+      	jsCarte.intervenant = stCarte.Intervenant
+      	jsCarte.texte 		= stCarte.Texte
+      	jsCarte.titre 		= stCarte.Titre
+      	
+      	jsCarte.extra 		= VariantVersJSON( stCarte.Extra )		// Attention, seuls les types simples pourront être sérialisés
+      	
+      renvoyer jsCarte
+     type : 458752
+   -
+     name : JSONVerskbCarte
+     procedure_id : 1402369464243287331
+     type_code : 15
+     code : |1-
+      // Résumé : Convertit un JSON en kbCarte
+      // Syntaxe :
+      //[ <Résultat> = ] JSONVerskbCarte (<jsCarte> est JSON)
+      //
+      // Paramètres :
+      //	jsCarte (JSON) : Objet JSON représentant le kbCarte
+      // Valeur de retour :
+      // 	kbCarte : Carte
+      //
+      procédure JSONVerskbCarte( jsCarte est un json ) : kbCarte
+      
+      	stCarte est un kbCarte
+      
+      	stCarte.Date		= jsCarte.date
+      	stCarte.Intervenant	= jsCarte.intervenant
+      	stCarte.Texte		= jsCarte.texte
+      	stCarte.Titre		= jsCarte.titre
+      	
+      	stCarte.Extra		= JSONVersVariant( jsCarte.extra )
+      
+      renvoyer stCarte
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x13763664000fc03e
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
